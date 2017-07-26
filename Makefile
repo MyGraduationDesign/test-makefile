@@ -2,9 +2,10 @@ objects = main.o print.o
 
 helloworld: $(objects)
 	gcc -o helloworld $(objects)
-main.o: main.c print.h
+$(object):print.h
+main.o: main.c
 	gcc -c main.c
-print.o: print.c print.h
+print.o: print.c
 	gcc -c print.c
 
 clean:

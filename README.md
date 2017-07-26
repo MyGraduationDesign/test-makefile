@@ -1,5 +1,10 @@
 # Makefile Test
 Makefile
 =======
-![Build Status](https://github.com/xuegangliu/test-makefile)
-This is test
+Hello,World!
+
+## compile
+```make```
+
+## clean
+```make clean```
