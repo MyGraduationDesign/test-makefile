@@ -3,8 +3,11 @@ Makefile
 =======
 Hello,World!
 
-## compile
-```make```
+## compile run
+```
+make
+./helloworld
+```
 
 ## clean
 ```make clean```
